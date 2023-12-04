@@ -20,8 +20,8 @@ export class CreateCommentDto {
   content!: string;
 
   @IsInt()
-  articleId: number | undefined;
+  articleId!: number | undefined;
 
   @IsInt()
-  commentId: number | undefined;
+  commentId!: number | undefined;
 }
